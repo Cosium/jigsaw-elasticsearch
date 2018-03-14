@@ -13,6 +13,7 @@
             <groupId>org.elasticsearch</groupId>
             <artifactId>elasticsearch</artifactId>
             <version>6.2.2</version>
+            <!-- Because the are packages conflicts with transitive dependencies -->
             <exclusions>
                 <exclusion>
                     <groupId>*</groupId>
